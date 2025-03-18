@@ -58,7 +58,7 @@ public class pp3storage {
              }
 
              String[] lines = output.toString().split("\n");
-             System.out.println("---------------------------------------PPl STORAGE REPORT:--------------------------------------");
+             System.out.println("---------------------------------------PP3 STORAGE REPORT:--------------------------------------");
              System.out.println("+------------------------------------+------+-------+-------+--------+-------------------------+");
              System.out.println("|       Filesystem                   | Size | Used  | Avail |  Use%  | Mounted on              |");
              System.out.println("+------------------------------------+------+-------+-------+--------+-------------------------+");
@@ -92,8 +92,8 @@ public class pp3storage {
 	 private void sendEmailAlert(String messageBody) {
 	        // Recipient's email ID needs to be mentioned.
 	  
-	    	String[] to = {"annotation.divya@gmail.com"};
-	        String[] cc = { "divya.d@htic.iitm.ac.in"};
+	        String[] to = {"divya.d@htic.iitm.ac.in"};
+	    	String[] cc = {"nathan.i@htic.iitm.ac.in, venip@htic.iitm.ac.in"};
 	        String[] bcc = {};  	
 	    
 	        // Sender's email ID needs to be mentioned
