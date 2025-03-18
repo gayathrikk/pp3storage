@@ -71,7 +71,7 @@ public class pp3storage {
                  System.out.println("+------------------------------------+------+-------+-------+--------+-------------------------+");
 
                  int usePercent = Integer.parseInt(parts[4].replace("%", ""));
-                 if (usePercent > 1) {
+                 if (usePercent > 70) {
                      sendEmail = true;
                      if (parts[0].equals("df -h /mnt/local/nvmestorage")) {
                          emailContent.append("PP3v15.humanbrain.in  - D2_nvmeShare used storage is exceeding 70%\n");
